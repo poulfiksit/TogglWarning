@@ -29,8 +29,10 @@
         for(const mutation of mutationsList) {
             if (mutation.type === 'childList') {
                 if(mutation.target.className == "content-wrapper pro") {
-                    let collection = document.getElementsByClassName(' css-syh4oc-TimeEntryDescription e10vqxue0')
-                    topdiv = document.getElementsByClassName('css-1wbxlms-Description ea2nj4x2')[0]
+                    // let collection = document.getElementsByClassName('css-syh4oc-TimeEntryDescription e10vqxue0')
+                    let collection = document.getElementsByClassName(' css-1phbu0u-TimeEntryDescription e10vqxue0')
+                    // topdiv = document.getElementsByClassName('css-1wbxlms-Description ea2nj4x2')[0]
+                    topdiv = document.getElementsByClassName('css-x7uby4-Description-noOverflow ea2nj4x2')[0]
                     entryList = Array.from(collection)
                     initialize(entryList, VARS)
                     refresh(entryList, topdiv, VARS)
