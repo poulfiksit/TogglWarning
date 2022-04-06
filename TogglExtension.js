@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Toggl Description Plugin
 // @namespace    https://fiksit.dk/
-// @version      1.0
+// @version      1.1
 // @description  Check if Descriptions are longer than 50 characters. Properly...
 // @author       Poul Bach Lauritsen @ Fiks IT
 // @match        https://track.toggl.com/timer
